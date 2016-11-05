@@ -5,7 +5,7 @@ menu.board=Board / Bootloader / USB-Core
 ##############################################################
 
 
-HoodLoader2atmega16u2.name=HoodLoader2 16u2
+HoodLoader2atmega16u2.name=CoreDuino Ultra 16U2
 HoodLoader2atmega16u2.build.core=arduino:arduino
 HoodLoader2atmega16u2.bootloader.tool=arduino:avrdude
 HoodLoader2atmega16u2.upload.tool=arduino:avrdude
@@ -39,17 +39,17 @@ HoodLoader2atmega16u2.bootloader.lock_bits=0x0F
 #usb settings, manufacturer overwritten by the IDE because of the VID
 HoodLoader2atmega16u2.build.vid=0x2341
 HoodLoader2atmega16u2.build.pid=0x484C
-HoodLoader2atmega16u2.build.usb_product="HoodLoader2 16u2"
+HoodLoader2atmega16u2.build.usb_product=“CoreDuino Ultra 16U2"
 HoodLoader2atmega16u2.build.usb_manufacturer="Nico Hood"
 HoodLoader2atmega16u2.build.extra_flags={build.usb_flags} -DMAGIC_KEY_POS=(RAMEND-1) -DUSB_EP_SIZE=16
 
 
 #Board selection (only important for burning bootloaders)
-HoodLoader2atmega16u2.menu.board.uno=HoodLoader2 Uno
+HoodLoader2atmega16u2.menu.board.uno=CoreDuino Uno
 HoodLoader2atmega16u2.menu.board.uno.bootloader.file=HexFiles/HoodLoader2_0_5_Uno_atmega16u2.hex
-HoodLoader2atmega16u2.menu.board.mega2560=HoodLoader2 Mega
+HoodLoader2atmega16u2.menu.board.mega2560=CoreDuino Mega
 HoodLoader2atmega16u2.menu.board.mega2560.bootloader.file=HexFiles/HoodLoader2_0_5_Mega_atmega16u2.hex
-HoodLoader2atmega16u2.menu.board.dev=HoodLoader2 Dev
+HoodLoader2atmega16u2.menu.board.dev=CoreDuino Dev
 HoodLoader2atmega16u2.menu.board.dev.bootloader.file=HoodLoader2/HoodLoader2.hex
 
 # DFU fuse settings are not suitable for HoodLoader2
@@ -79,7 +79,7 @@ HoodLoader2atmega16u2.menu.board.dfu.bootloader.lock_bits=0x0F
 ##############################################################
 
 
-HoodLoader2atmega32u2.name=HoodLoader2 32u2
+HoodLoader2atmega32u2.name=CoreDuino Ultra 32U2
 HoodLoader2atmega32u2.build.core=arduino:arduino
 HoodLoader2atmega32u2.bootloader.tool=arduino:avrdude
 HoodLoader2atmega32u2.upload.tool=arduino:avrdude
@@ -113,17 +113,17 @@ HoodLoader2atmega32u2.bootloader.lock_bits=0x0F
 #usb settings, manufacturer overwritten by the IDE because of the VID
 HoodLoader2atmega32u2.build.vid=0x2341
 HoodLoader2atmega32u2.build.pid=0x484D
-HoodLoader2atmega32u2.build.usb_product="HoodLoader2 32u2"
+HoodLoader2atmega32u2.build.usb_product=“CoreDuino Ultra 32U2"
 HoodLoader2atmega32u2.build.usb_manufacturer="Nico Hood"
 HoodLoader2atmega32u2.build.extra_flags={build.usb_flags} -DMAGIC_KEY_POS=(RAMEND-1) -DUSB_EP_SIZE=16
 
 
 #Board selection (only important for burning bootloaders)
-HoodLoader2atmega32u2.menu.board.uno=HoodLoader2 Uno
+HoodLoader2atmega32u2.menu.board.uno=CoreDuino Uno
 HoodLoader2atmega32u2.menu.board.uno.bootloader.file=HexFiles/HoodLoader2_0_5_Uno_atmega32u2.hex
-HoodLoader2atmega32u2.menu.board.mega2560=HoodLoader2 Mega
+HoodLoader2atmega32u2.menu.board.mega2560=CoreDuino Mega
 HoodLoader2atmega32u2.menu.board.mega2560.bootloader.file=HexFiles/HoodLoader2_0_5_Mega_32u2.hex
-HoodLoader2atmega32u2.menu.board.dev=HoodLoader2 Dev
+HoodLoader2atmega32u2.menu.board.dev=CoreDuino Dev
 HoodLoader2atmega32u2.menu.board.dev.bootloader.file=HoodLoader2/HoodLoader2.hex
 
 # DFU fuse settings are not suitable for HoodLoader2
@@ -138,7 +138,7 @@ HoodLoader2atmega32u2.menu.board.dfu.bootloader.lock_bits=0x0F
 ##############################################################
 
 
-HoodLoader2atmega8u2.name=HoodLoader2 8u2
+HoodLoader2atmega8u2.name=CoreDuino Ultra 8U2
 HoodLoader2atmega8u2.build.core=arduino:arduino
 HoodLoader2atmega8u2.bootloader.tool=arduino:avrdude
 HoodLoader2atmega8u2.upload.tool=arduino:avrdude
@@ -172,15 +172,15 @@ HoodLoader2atmega8u2.bootloader.lock_bits=0x0F
 #usb settings, manufacturer overwritten by the IDE because of the VID
 HoodLoader2atmega8u2.build.vid=0x2341
 HoodLoader2atmega8u2.build.pid=0x484E
-HoodLoader2atmega8u2.build.usb_product="HoodLoader2 8u2"
+HoodLoader2atmega8u2.build.usb_product="CoreDuino Ultra 8U2"
 HoodLoader2atmega8u2.build.usb_manufacturer="Nico Hood"
 HoodLoader2atmega8u2.build.extra_flags={build.usb_flags} -DMAGIC_KEY_POS=(RAMEND-1) -DUSB_EP_SIZE=16
 
 
 #Board selection (only important for burning bootloaders)
-HoodLoader2atmega8u2.menu.board.uno=HoodLoader2 Uno
+HoodLoader2atmega8u2.menu.board.uno=CoreDuino Uno
 HoodLoader2atmega8u2.menu.board.uno.bootloader.file=HexFiles/HoodLoader2_0_5_Uno_atmega8u2.hex
-HoodLoader2atmega8u2.menu.board.mega2560=HoodLoader2 Mega
+HoodLoader2atmega8u2.menu.board.mega2560=CoreDuino Mega
 HoodLoader2atmega8u2.menu.board.mega2560.bootloader.file=HexFiles/HoodLoader2_0_5_Mega_atmega8u2.hex
 
 # DFU fuse settings are not suitable for HoodLoader2
@@ -191,122 +191,6 @@ HoodLoader2atmega8u2.menu.board.dfu.bootloader.high_fuses=0xD9
 HoodLoader2atmega8u2.menu.board.dfu.bootloader.extended_fuses=0xF4
 HoodLoader2atmega8u2.menu.board.dfu.bootloader.unlock_bits=0x3F
 HoodLoader2atmega8u2.menu.board.dfu.bootloader.lock_bits=0x0F
-
-
-##############################################################
-
-
-HoodLoader2at90usb82.name=HoodLoader2 at90usb82
-HoodLoader2at90usb82.build.core=arduino:arduino
-HoodLoader2at90usb82.bootloader.tool=arduino:avrdude
-HoodLoader2at90usb82.upload.tool=arduino:avrdude
-
-# MCU properties
-HoodLoader2at90usb82.upload.maximum_size=4096
-HoodLoader2at90usb82.upload.maximum_data_size=512
-HoodLoader2at90usb82.build.mcu=at90usb82
-
-#general settings for all boards:
-HoodLoader2at90usb82.build.variant=HoodLoader2
-HoodLoader2at90usb82.build.board=HOODLOADER2
-HoodLoader2at90usb82.build.f_cpu=16000000L
-HoodLoader2at90usb82.vid.0=0x2341
-HoodLoader2at90usb82.pid.0=0x484B
-
-#uploading settings
-HoodLoader2at90usb82.upload.speed=57600
-HoodLoader2at90usb82.upload.protocol=avr109
-HoodLoader2at90usb82.upload.disable_flushing=true
-HoodLoader2at90usb82.upload.use_1200bps_touch=true
-HoodLoader2at90usb82.upload.wait_for_upload_port=true
-
-#fuses (HoodLoader2 only, not suitable for DFU)
-HoodLoader2at90usb82.bootloader.low_fuses=0xEF
-HoodLoader2at90usb82.bootloader.high_fuses=0xD8
-HoodLoader2at90usb82.bootloader.extended_fuses=0xFC
-HoodLoader2at90usb82.bootloader.unlock_bits=0x3F
-HoodLoader2at90usb82.bootloader.lock_bits=0x0F
-
-#usb settings, manufacturer overwritten by the IDE because of the VID
-HoodLoader2at90usb82.build.vid=0x2341
-HoodLoader2at90usb82.build.pid=0x484B
-HoodLoader2at90usb82.build.usb_product="HoodLoader2 at90usb82"
-HoodLoader2at90usb82.build.usb_manufacturer="Nico Hood"
-HoodLoader2at90usb82.build.extra_flags={build.usb_flags} -DMAGIC_KEY_POS=(RAMEND-1) -DUSB_EP_SIZE=16
-
-
-#Board selection (only important for burning bootloaders)
-HoodLoader2at90usb82.menu.board.uno=HoodLoader2 Uno
-HoodLoader2at90usb82.menu.board.uno.bootloader.file=HexFiles/HoodLoader2_0_5_Uno_at90usb82.hex
-HoodLoader2at90usb82.menu.board.mega2560=HoodLoader2 Mega
-HoodLoader2at90usb82.menu.board.mega2560.bootloader.file=HexFiles/HoodLoader2_0_5_Mega_at90usb82.hex
-
-# DFU fuse settings are not suitable for HoodLoader2
-HoodLoader2at90usb82.menu.board.dfu=DFU
-HoodLoader2at90usb82.menu.board.dfu.bootloader.file=HexFiles/BootloaderDFU_at90usb82.hex
-HoodLoader2at90usb82.menu.board.dfu.bootloader.low_fuses=0xEF
-HoodLoader2at90usb82.menu.board.dfu.bootloader.high_fuses=0xD9
-HoodLoader2at90usb82.menu.board.dfu.bootloader.extended_fuses=0xF4
-HoodLoader2at90usb82.menu.board.dfu.bootloader.unlock_bits=0x3F
-HoodLoader2at90usb82.menu.board.dfu.bootloader.lock_bits=0x0F
-
-
-##############################################################
-
-
-HoodLoader2at90usb162.name=HoodLoader2 at90usb162
-HoodLoader2at90usb162.build.core=arduino:arduino
-HoodLoader2at90usb162.bootloader.tool=arduino:avrdude
-HoodLoader2at90usb162.upload.tool=arduino:avrdude
-
-# MCU properties
-HoodLoader2at90usb162.upload.maximum_size=12288
-HoodLoader2at90usb162.upload.maximum_data_size=512
-HoodLoader2at90usb162.build.mcu=at90usb162
-
-#general settings for all boards:
-HoodLoader2at90usb162.build.variant=HoodLoader2
-HoodLoader2at90usb162.build.board=HOODLOADER2
-HoodLoader2at90usb162.build.f_cpu=16000000L
-HoodLoader2at90usb162.vid.0=0x2341
-HoodLoader2at90usb162.pid.0=0x484F
-
-#uploading settings
-HoodLoader2at90usb162.upload.speed=57600
-HoodLoader2at90usb162.upload.protocol=avr109
-HoodLoader2at90usb162.upload.disable_flushing=true
-HoodLoader2at90usb162.upload.use_1200bps_touch=true
-HoodLoader2at90usb162.upload.wait_for_upload_port=true
-
-#fuses (HoodLoader2 only, not suitable for DFU)
-HoodLoader2at90usb162.bootloader.low_fuses=0xEF
-HoodLoader2at90usb162.bootloader.high_fuses=0xD8
-HoodLoader2at90usb162.bootloader.extended_fuses=0xFC
-HoodLoader2at90usb162.bootloader.unlock_bits=0x3F
-HoodLoader2at90usb162.bootloader.lock_bits=0x0F
-
-#usb settings, manufacturer overwritten by the IDE because of the VID
-HoodLoader2at90usb162.build.vid=0x2341
-HoodLoader2at90usb162.build.pid=0x484F
-HoodLoader2at90usb162.build.usb_product="HoodLoader2 at90usb162"
-HoodLoader2at90usb162.build.usb_manufacturer="Nico Hood"
-HoodLoader2at90usb162.build.extra_flags={build.usb_flags} -DMAGIC_KEY_POS=(RAMEND-1) -DUSB_EP_SIZE=16
-
-
-#Board selection (only important for burning bootloaders)
-HoodLoader2at90usb162.menu.board.uno=HoodLoader2 Uno
-HoodLoader2at90usb162.menu.board.uno.bootloader.file=HexFiles/HoodLoader2_0_5_Uno_at90usb162.hex
-HoodLoader2at90usb162.menu.board.mega2560=HoodLoader2 Mega
-HoodLoader2at90usb162.menu.board.mega2560.bootloader.file=HexFiles/HoodLoader2_0_5_Mega_at90usb162.hex
-
-# DFU fuse settings are not suitable for HoodLoader2
-HoodLoader2at90usb162.menu.board.dfu=DFU
-HoodLoader2at90usb162.menu.board.dfu.bootloader.file=HexFiles/BootloaderDFU_at90usb162.hex
-HoodLoader2at90usb162.menu.board.dfu.bootloader.low_fuses=0xEF
-HoodLoader2at90usb162.menu.board.dfu.bootloader.high_fuses=0xD9
-HoodLoader2at90usb162.menu.board.dfu.bootloader.extended_fuses=0xF4
-HoodLoader2at90usb162.menu.board.dfu.bootloader.unlock_bits=0x3F
-HoodLoader2at90usb162.menu.board.dfu.bootloader.lock_bits=0x0F
 
 
 ##############################################################
@@ -380,7 +264,7 @@ HoodLoader2atmega32u4.menu.board.dfumicro.bootloader.lock_bits=0x0F
 ##############################################################
 
 
-unoHIDBridge.name=HoodLoader2 Uno
+unoHIDBridge.name=CoreDuino Uno
 
 unoHIDBridge.upload.tool=arduino:avrdude
 unoHIDBridge.upload.protocol=arduino
@@ -408,7 +292,7 @@ unoHIDBridge.build.variant=arduino:standard
 ##############################################################
 
 
-megaHIDBridge.name=HoodLoader2 Mega 2560
+megaHIDBridge.name=CoreDuino Mega 2560
 
 megaHIDBridge.upload.tool=arduino:avrdude
 megaHIDBridge.upload.maximum_data_size=8192

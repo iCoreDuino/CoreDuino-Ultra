@@ -1,8 +1,8 @@
 {
   "packages": [
     {
-      "name": "HoodLoader2",
-      "maintainer": "NicoHood",
+      "name": “CoreDuino”,
+      "maintainer": “CoreDuino”,
       "websiteURL": "https://github.com/iCoreDuino/CoreDuino-Ultra",
       "email": "",
       "help": {
