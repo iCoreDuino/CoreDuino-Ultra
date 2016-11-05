@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "HoodLoader2",
+      "name": "CoreDuino Ultra",
       "maintainer": "NicoHood",
       "websiteURL": "https://github.com/iCoreDuino/CoreDuino-Ultra",
       "email": "",
@@ -24,7 +24,7 @@
           "boards": [
             {"name": "16U2"},
             {"name": "32U2"},
-            {"name": "32u4"},
+            {"name": "32U4"},
             {"name": "Uno"},
             {"name": "Mega 2560"}
           ],
